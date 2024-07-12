@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(image/registration2.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* width: 600px;
+    height: 800px; */
+    background-size: 1600px 800px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .navbar{
+    background-color: rgb(49, 45, 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 10px;
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Ensure the navbar spans the entire width of the page */
+    z-index: 1000; 
+  }
+  .navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #logo{
+    height: auto;
+    width: 100px;
+  }
+  li{
+    list-style-type: none;
+    display: inline-block;
+  }
+  li a{
+    font-size: 20px;
+    margin-right: 25px;
+    color:white;
+  }
+  #signin-b,#signup-b{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    color:black;
+    background-color: rgb(198, 218, 185);
+    margin-right: 10px;
+  }
+  #signin-b a{
+    color: black;
+  }
+  #signup-b a{
+    color: black;
+  }
+  li a:hover{
+    text-decoration:underline;
+    color:yellow;
+  }
+  #signin-b:hover,#signup-b:hover{
+    background-color: rgb(32, 245, 238);
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    margin-right: -20px;
+    background-color:rgb(49, 45, 55);
+    width: 200px;
+    box-shadow: 0 6px 12px black;
+    border-radius: 10px;
+    padding: 5px 0;
+  }
+  .dropdown-content a{
+   display: block;
+   padding: 10px;
+   width: 400px;
+   line-height: 20px;
+   color:white;
+   text-align: left;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+.heading h1{
+    text-align: center;
+    color:black;
+    backdrop-filter:blur(20px);
+}
+form{
+    margin-left:100px;
+    margin-top: 70px;
+    width:600px;
+    height: 400px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:transparent;
+    backdrop-filter:blur(10px);
+    border-radius: 50px;
+}
+.submit:hover,.reset:hover{
+    color:black;
+    border: 1px solid black;
+   
+}
+#fname:hover,#lname:hover,#email:hover,#pwd:hover,#cpwd:hover{
+    background-color:wheat;
+    color: rgb(15, 13, 13);
+    border: 1px solid black;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: wheat;
+}
+form h1{
+    padding-bottom: 10px;
+    color:white;
+    
+}
+input::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+.submit,.reset{
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#email{
+    width:420px;
+}
+@media screen and (max-width:768px){
+    .heading h1{
+        color:yellow;
+        text-align: center;
+        width: 100%;
+        backdrop-filter:blur(10px);
+    }
+    form h1{
+        color: yellow;
+    }
+    body{
+        position: fixed;
+        top: 0;
+        background-size:1600px auto;
+        padding: 0%;
+    }
+    .heading{
+        width: 100%;
+        text-align: center;
+        backdrop-filter:blur(10px);
+    }
+    form{
+        margin-top: 250px;
+        width: 100%;
+    }
+    .rigth{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .heading h1{
+        color:white;
+    }
+    form{
+            width: 100%;
+          margin: 20px auto; 
+            float: none;
+            padding: 10px;
+            margin-top: 200px;
+        }
+        #fname,#lname,#email,#pwd,#cpwd{
+            width: calc(100% - 20px); 
+        }
+}

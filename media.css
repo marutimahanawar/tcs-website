@@ -1,0 +1,240 @@
+/* Base Styles */
+/* (Your existing styles go here) */
+
+/* Smartphones */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .navbar ul li a, #signin-b, #signup-b {
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        padding: 50px 20px;
+    }
+
+    .services-content {
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .services-content div {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .about-content {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .about-content-info {
+        padding: 20px;
+    }
+
+    .about-content-img img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-content-info2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+
+    .box .left, .box .right {
+        margin: 20px 0;
+    }
+
+    textarea, form input {
+        width: calc(100% - 40px);
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .navbar ul li a, #signin-b, #signup-b {
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 40px;
+        padding: 50px 20px;
+    }
+
+    .services-content {
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .services-content div {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .about-content {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .about-content-info {
+        padding: 20px;
+    }
+
+    .about-content-img img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-content-info2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+
+    .box .left, .box .right {
+        margin: 20px 0;
+    }
+
+    textarea, form input {
+        width: calc(100% - 40px);
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        margin-right: 25px;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+        padding: 100px 20px;
+    }
+
+    .services-content {
+        flex-direction: row;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .services-content div {
+        margin-right: 30px;
+        width: auto;
+    }
+
+    .about-content {
+        flex-direction: row;
+        margin: 20px;
+    }
+
+    .about-content-info {
+        padding: 50px;
+    }
+
+    .about-content-img img {
+        width: auto;
+        padding: 50px;
+    }
+
+    .about-content-info2 {
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .contact-footer {
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .box {
+        flex-direction: row;
+        align-items: center;
+        padding-left: 40%;
+    }
+
+    .box .left, .box .right {
+        margin: 0 20%;
+    }
+
+    textarea, form input {
+        width: 400px;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        height: 450px;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Consultancy Services</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img id="logo" src="image/logo.png" alt=""></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="index.html">Services</a>
+                    <div class="dropdown-content">
+                        <a href="index.html"> Product Development</a>
+                        <a href="index.html">UI/UX Design</a>
+                        <a href="index.html">Digital Marketing</a>
+                        <a href="index.html">Software Testing</a>
+                        <a href="index.html">Data Analysis</a>
+                    </div>
+
+                
+                </li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact us</a></li>
+                <button id="signin-b" type="button"><a href="login.html">Sign in</a></button>
+                <button id="signup-b" type="button"><a href="registration.html">Sign up</a></button>
+            </ul>
+            <!-- <a href="#" class="nav-toggle"> 
+                <i class="fa-solid fa-bars"></i>
+            </a> -->
+        </div>
+    </div>
+    <!-- navigation bar end -->
+    <div class="form">
+        <div id="form-upper">
+            <form action="#">
+                <h3>Welcome</h3>
+                <h5 id="forgot">Forgot Username</h5>
+                <input id="email-input" type="text" id="" placeholder="Email-id" autocomplete="off"><br><br>
+                <h5 id="forgot-pwd">Forgot Username</h5>
+                <input id="password-input" type="text" id="" placeholder="password" autocomplete="off"> <br><br>
+                <input id="checkbox" type="checkbox" name="" id="">Keep Me Signed in <br><br>
+                <button id="login-btn" type="submit">Login</button>
+            </form>
+        </div>
+        <div id="form-lower">
+            Login Using <div class="icons"><i class="fa-brands fa-google"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+        </div>
+    </div>
+</body>
+
+</html>
